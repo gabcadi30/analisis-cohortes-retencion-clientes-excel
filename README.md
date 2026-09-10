@@ -17,4 +17,15 @@ En las columnas mensuales:
  - **1** representa que el cliente permaneció activo durante el mes;
  - **0** representa que el cliente ya no se encontraba activo.
 
-Los datos originales se encuentra en: [Proyecto 2: Retención Startup Tecnológica ](https://www.kaggle.com/datasets/datacertlaboratoria/proyecto-2-startup-tecnolgica)
+Los datos originales se encuentra en: [Proyecto 2: Retención Startup Tecnológica ](https://www.kaggle.com/datasets/datacertlaboratoria/proyecto-2-startup-tecnolgica)## Proceso de análisis
+
+### 4.Preguntas a resolver:
+   - Pregunta Principal : ¿La startup debería destinar la inversión a la adquisición de nuevos usuarios?
+   - Preguntas Complementarias:
+  - - ¿Cómo evoluciona la retención conforme aumenta la antigüedad de los clientes?
+  - - ¿En qué periodo del ciclo de vida se concentra la mayor cantidad de abandonos?
+  - - ¿Las cohortes más recientes presentan una retención mejor o peor que las anteriores?
+  - - ¿Existen señales suficientes para afirmar que el producto ha alcanzado Product-Market Fit?
+       
+### 5. Proceso de Análisis:
+
