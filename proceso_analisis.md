@@ -109,7 +109,7 @@ Con los registros válidos se creó una tabla dinámica configurada de la siguie
 * **Valores:** conteo de clientes.
 * **Filtro:** `Validacion_churn = valido`.
 
-
+![Tabla Dinámica trimestral ](assets/tabla_dinamica_churn_trimes.png)
 
 Esta tabla muestra en qué trimestre calendario abandonaron los clientes pertenecientes a cada cohorte.
 
@@ -126,9 +126,7 @@ Se utilizó nuevamente una combinación de `INDICE`, `COINCIDIR` y `COLUMNAS` pa
 ```excel
 =SI.ERROR(INDICE($B5:$I5;1;COINCIDIR($A5;$B$4:$I$4;0)+COLUMNAS($B:B)-1);" ")
 ```
-
 De esta manera:
-
 * el trimestre de registro pasó a ser el trimestre 1;
 * el siguiente periodo pasó a ser el trimestre 2;
 * los demás abandonos se desplazaron según la antigüedad correspondiente.
@@ -145,6 +143,8 @@ Clientes que abandonaron en el trimestre / Clientes iniciales de la cohorte
 Esta tasa representa el porcentaje de la cohorte que abandonó específicamente durante cada trimestre. No corresponde a una tasa acumulada.
 
 Se aplicó formato condicional a la matriz para identificar los periodos del ciclo de vida en los que se concentra una mayor proporción de abandonos.
+
+![Matriz de abandono trimestrall ](assets/matriz_churn_trimestral.png)
 
 ## 12. Resultados obtenidos
 
