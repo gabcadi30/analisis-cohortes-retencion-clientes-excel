@@ -64,9 +64,9 @@ Se aplicó formato condicional con escala de colores a la matriz porcentual. Est
 
 ![Matriz de Retencion Mensual](assets/matriz_retencion_mensual.png)
 
-También se incorporó una fila de **Promedio de cohortes**, calculada con las cohortes que cuentan con información en cada mes.Este promedio debe interpretarse con cautela porque la cantidad de cohortes disponibles disminuye en los meses más avanzados. Por ejemplo, el mes 23 contiene solamente dos cohortes y el mes 24 corresponde a una sola.
+También se incorporó una fila de **"Promedio de cohortes"**, calculada con las cohortes que cuentan con información en cada mes.Este promedio debe interpretarse con cautela porque la cantidad de cohortes disponibles disminuye en los meses más avanzados. Por ejemplo, el mes 23 contiene solamente dos cohortes y el mes 24 corresponde a una sola.
 
-## 7. Preparación de los datos trimestrales
+## 7. Preparación de la matriz de abandono trimestral
 
 Para construir la matriz de abandono se trabajó con la segunda tabla importada mediante Power Query.
 
@@ -83,14 +83,15 @@ Los campos fueron transformados a una etiqueta de texto con el formato:
 2019-T3
 2019-T4
 ```
+Estas etiquetas permitieron agrupar a los clientes y ordenar cronológicamente en trimestres para la creación de las tablas dinámicas.
 
-Estas etiquetas permitieron agrupar a los clientes y ordenar cronológicamente los trimestres en las tablas dinámicas.
+![Data Original trimestral ](assets/data_original_trimestral.png)
 
 ## 8. Validación de la información de abandono
 
-Durante la preparación del análisis trimestral se revisó la relación entre el estado del cliente y su fecha de abandono.
+Durante la preparación del análisis trimestral se revisó la calidad de los datos y su congruencia.
 
-Se encontraron dos registros clasificados como activos que también tenían registrada una fecha de abandono. Debido a esta contradicción, no era posible determinar con seguridad cuál de los dos valores era correcto.
+Se encontraron dos registros clasificados como "activos" que también tenían registrada una fecha de abandono. Debido a esta contradicción, no era posible determinar con seguridad cuál de los dos valores era correcto.
 
 Los registros no fueron eliminados ni corregidos arbitrariamente. Se creó la columna `Validacion_churn` para clasificarlos como:
 
@@ -107,6 +108,8 @@ Con los registros válidos se creó una tabla dinámica configurada de la siguie
 * **Columnas:** trimestre de abandono.
 * **Valores:** conteo de clientes.
 * **Filtro:** `Validacion_churn = valido`.
+
+
 
 Esta tabla muestra en qué trimestre calendario abandonaron los clientes pertenecientes a cada cohorte.
 
