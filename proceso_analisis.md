@@ -150,8 +150,8 @@ Se aplicó formato condicional a la matriz para identificar los periodos del cic
 
 El proceso produjo dos visualizaciones principales:
 
--- Una matriz mensual de retención que muestra la permanencia de los clientes según su antigüedad.
--- Una matriz trimestral de abandono que muestra en qué etapa del ciclo de vida se concentran las cancelaciones.
+* Una matriz mensual de retención que muestra la permanencia de los clientes según su antigüedad.
+* Una matriz trimestral de abandono que muestra en qué etapa del ciclo de vida se concentran las cancelaciones.
 
 Estas matrices se utilizaron para evaluar la evolución de las cohortes y sustentar la recomendación de inversión presentada en el README principal.
 
