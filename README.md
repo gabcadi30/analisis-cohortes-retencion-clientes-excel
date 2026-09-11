@@ -38,6 +38,6 @@ Durante la preparación de la segunda matriz se identificaron dos registros inco
 
 Finalmente, se aplicó formato condicional a ambas matrices para facilitar la comparación entre cohortes y reconocer patrones de retención y abandono.
 
-> [Ver el proceso completo, fórmulas y capturas de pantalla](ANALISIS_DETALLADO.md)
+> [Ver el proceso completo, fórmulas y capturas de pantalla](proceso_analisis.md)
 
 
