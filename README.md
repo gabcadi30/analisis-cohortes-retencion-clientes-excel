@@ -17,7 +17,7 @@ En las columnas mensuales:
  - **1** representa que el cliente permaneció activo durante el mes;
  - **0** representa que el cliente ya no se encontraba activo.
 
-Los datos originales se encuentra en: [Proyecto 2: Retención Startup Tecnológica ](https://www.kaggle.com/datasets/datacertlaboratoria/proyecto-2-startup-tecnolgica)## Proceso de análisis
+Los datos originales se encuentra en: [Proyecto 2: Retención Startup Tecnológica ](https://www.kaggle.com/datasets/datacertlaboratoria/proyecto-2-startup-tecnolgica)
 
 ### 4.Preguntas a resolver:
    - Pregunta Principal : ¿La startup debería destinar la inversión a la adquisición de nuevos usuarios?
@@ -28,4 +28,16 @@ Los datos originales se encuentra en: [Proyecto 2: Retención Startup Tecnológi
   - - ¿Existen señales suficientes para afirmar que el producto ha alcanzado Product-Market Fit?
        
 ### 5. Proceso de Análisis:
+Los archivos CSV fueron importados y transformados mediante Power Query. Posteriormente, el análisis se desarrolló mediante dos matrices complementarias:
+
+1. **Matriz de retención mensual:** se agruparon los clientes según su mes de registro y se sumaron los indicadores mensuales de actividad. Las cohortes fueron alineadas según su antigüedad mediante las funciones `INDICE`, `COINCIDIR` y `COLUMNAS`. Luego se calculó el porcentaje de clientes que permaneció activo durante cada mes.
+
+2. **Matriz de abandono o churn trimestral:** se agruparon los clientes según su trimestre de registro y el trimestre en el que abandonaron el servicio. Esta matriz permitió identificar en qué etapa del ciclo de vida se concentraron las cancelaciones.
+
+Durante la preparación de la segunda matriz se identificaron dos registros inconsistentes: figuraban como activos, pero tenían una fecha de abandono. Ambos se conservaron en la fuente, se clasificaron como inválidos y se excluyeron únicamente del análisis de churn.
+
+Finalmente, se aplicó formato condicional a ambas matrices para facilitar la comparación entre cohortes y reconocer patrones de retención y abandono.
+
+> [Ver el proceso completo, fórmulas y capturas de pantalla](ANALISIS_DETALLADO.md)
+
 
