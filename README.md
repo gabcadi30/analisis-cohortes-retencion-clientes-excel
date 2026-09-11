@@ -38,6 +38,11 @@ Durante la preparación de la segunda matriz se identificaron dos registros inco
 
 Finalmente, se aplicó formato condicional a ambas matrices para facilitar la comparación entre cohortes y reconocer patrones de retención y abandono.
 
+![Matriz de Retencion Mensual](assets/matriz_retencion_mensual.png)
+
+![Matriz de abandono trimestrall ](assets/matriz_churn_trimestral.png)
+
+
 > [Ver el proceso completo, fórmulas y capturas de pantalla](proceso_analisis.md)
 
 
