@@ -22,12 +22,13 @@ En las columnas mensuales:
 
 ## 4. Preguntas a resolver:
 **Pregunta Principal :**
-     ¿La startup debería destinar la inversión a la adquisición de nuevos usuarios?
+- ¿La startup debería destinar la inversión a la adquisición de nuevos usuarios?
+  
 **Preguntas Complementarias:**
-  - - ¿Cómo evoluciona la retención conforme aumenta la antigüedad de los clientes?
-  - - ¿En qué periodo del ciclo de vida se concentra la mayor cantidad de abandonos?
-  - - ¿Las cohortes más recientes presentan una retención mejor o peor que las anteriores?
-  - - ¿Existen señales suficientes para afirmar que el producto ha alcanzado Product-Market Fit?
+- ¿Cómo evoluciona la retención conforme aumenta la antigüedad de los clientes?
+- ¿En qué periodo del ciclo de vida se concentra la mayor cantidad de abandonos?
+- ¿Las cohortes más recientes presentan una retención mejor o peor que las anteriores?
+- ¿Existen señales suficientes para afirmar que el producto ha alcanzado Product-Market Fit?
        
 ## 5. Proceso de Análisis:
 Los archivos CSV fueron importados y transformados mediante Power Query. Posteriormente, el análisis se desarrolló mediante dos matrices complementarias:
