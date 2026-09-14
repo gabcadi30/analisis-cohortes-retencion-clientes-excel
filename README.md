@@ -38,11 +38,47 @@ Durante la preparación de la segunda matriz se identificaron dos registros inco
 
 Finalmente, se aplicó formato condicional a ambas matrices para facilitar la comparación entre cohortes y reconocer patrones de retención y abandono.
 
+> Para revisar el proceso del análisis completo y las formulas usadas, ingrese [aquí](proceso_analisis.md)
+
+## 6. Hallazgos importantes:
 ![Matriz de Retencion Mensual](assets/matriz_retencion_mensual.png)
+- Las cohortes de enero y febrero de 2019 presentan los mejores porcentajes de retención de largo plazo. La cohorte de enero de 2019 mantuvo activo al 63,64 % de sus clientes después de 24 meses, mientras que la cohorte de febrero conservó al 61,54 % después de 23 meses.
+
+- Sin embargo, este comportamiento no fue uniforme entre las cohortes más antiguas. En marzo de 2019, solo el 30,77 % de los clientes permaneció activo después de 22 meses. Asimismo, al completar un año de suscripción, la cohorte de abril de 2019 registró una retención de 46,67 %, mientras que la cohorte de septiembre de 2019 alcanzó el 50 %.
+  
+- En 2020 se registraron 197 clientes nuevos, frente a los 133 incorporados durante 2019. Esto representa un incremento de aproximadamente 48,12 % en la captación de clientes. Sin embargo, el crecimiento en nuevas suscripciones no estuvo acompañado necesariamente de una mejor retención.
+
+- La cohorte de mayo de 2020, que fue la segunda con mayor cantidad de clientes nuevos, mantuvo activo solo al 64 % de sus usuarios al finalizar el octavo mes. Este resultado constituyó la segunda retención más baja entre las cohortes que alcanzaron ese mismo periodo de observación.
+
+- La retención más baja en el octavo mes correspondió a la cohorte de marzo de 2020, con apenas un 45,45 % de clientes activos. Esta cohorte había registrado un 54,55 % de retención en el sexto mes, lo que demuestra que continuó perdiendo usuarios durante los meses posteriores.
 
 ![Matriz de abandono trimestrall ](assets/matriz_churn_trimestral.png)
 
+- La matriz de abandono muestra que las mayores tasas promedio de churn se concentran durante los primeros periodos de permanencia. El tercer trimestre presenta el promedio más alto, con un 10,4 %, seguido del segundo trimestre, con un 9,8 %. A partir del cuarto trimestre, la tasa promedio comienza a disminuir, aunque se observan incrementos puntuales en algunas cohortes.
 
-> [Ver el proceso completo, fórmulas y capturas de pantalla](proceso_analisis.md)
+- Las cohortes registradas durante 2020 presentan, en general, mayores tasas de abandono temprano que las cohortes de 2019. Esta diferencia se observa especialmente durante el segundo trimestre: la cohorte 2020-T1 alcanzó un 14,3 % de abandono, seguida por la cohorte 2020-T3 con un 13,5 % y la cohorte 2020-T2 con un 12,7 %.
+
+- No obstante, la tasa de abandono individual más alta de toda la matriz corresponde a la cohorte 2019-T3, que registró un 17,4 % durante su tercer trimestre de permanencia. Esta misma cohorte volvió a presentar un porcentaje elevado en el quinto trimestre, con un 13 %, lo que evidencia que su pérdida de clientes no se limitó a una sola etapa.
+
+## 7. Conclusiones:
+- El crecimiento de clientes nuevos durante 2020 no estuvo acompañado de una mejora en su permanencia.
+- Las cohortes de 2020 mostraron mayores dificultades de retención temprana.
+- El periodo de mayor riesgo de abandono se concentra entre los meses 4 y 9.
+- La antigüedad de una cohorte no garantiza una mayor retención, aunque enero y febrero de 2019 destacaron por su permanencia a largo plazo.
+
+## 8.Recomendaciones:
+- Implementar acciones de fidelización y acompañamiento durante los primeros tres meses e investigar las causas de abandono mediante encuestas o entrevistas.
+- Comparar las características y experiencias de las cohortes con mejor y peor desempeño para identificar factores relacionados con la permanencia.
+- Revisar si hubo cambios en el producto, en el perfil de los clientes captados o en el proceso de incorporación durante 2020 que pudo afectar la experiencia de los nuevos clientes.
+- Finalmente, antes de incrementar la inversión destinada a captar nuevos clientes, se recomienda priorizar la mejora de la retención.
+  
+
+
+
+
+
+
+
+
 
 
